@@ -112,3 +112,7 @@ Execute the fuzzer
 * -d: duration (fuzzing time)
 * -m: mode (1: mask, 0: default) 
 * -o: order (1: new sequence, 0: default)
+
+
+### Dataset
+We make all three datasets used in our paper publicly available. [Download](https://drive.google.com/file/d/1h_XYXcKqfKuN7ArsXDwFq52V_mH3GQ5w/view?usp=sharing)
