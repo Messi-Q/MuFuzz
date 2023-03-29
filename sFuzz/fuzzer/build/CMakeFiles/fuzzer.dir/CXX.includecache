@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home_other_users/pqian/MuFuzz/sFuzz/fuzzer/Utils.h
+libfuzzer/Fuzzer.h
+-
+boost/algorithm/string.hpp
+-
+boost/filesystem.hpp
+-
+boost/program_options.hpp
+-
+boost/property_tree/json_parser.hpp
+-
+boost/property_tree/ptree.hpp
+-
+iostream
+-
+
+/home_other_users/pqian/MuFuzz/sFuzz/fuzzer/main.cpp
+Utils.h
+/home_other_users/pqian/MuFuzz/sFuzz/fuzzer/Utils.h
+libfuzzer/Fuzzer.h
+-
+iostream
+-
+
