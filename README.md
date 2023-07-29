@@ -1,4 +1,4 @@
-MuFuzz
+# MuFuzz
 
 MuFuzz: Sequence-Aware Mutation and Seed Mask Guidance for Blockchain Smart Contract Fuzzing
 
