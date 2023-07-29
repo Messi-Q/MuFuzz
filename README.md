@@ -1,10 +1,10 @@
-# T-Fuzz
+MuFuzz
 
-Enlightening Smart Contract Fuzzing via Two-Stage Targeted Mutation for In-Depth State Exploration
+MuFuzz: Sequence-Aware Mutation and Seed Mask Guidance for Blockchain Smart Contract Fuzzing
 
 ## Requirements
 
-T-Fuzz is executed on Linux (ideally Ubuntu 18.04).
+MuFuzz is executed on Linux (ideally Ubuntu 18.04).
 
 Dependencies: 
 
@@ -20,7 +20,7 @@ Dependencies:
 ## Architecture
 
 ```shell
-$(T-Fuzz)
+$(MuFuzz)
 ├── sFuzz
 │   ├── fuzzer
 │   ├── libfuzzer
