@@ -52,7 +52,7 @@ $(MuFuzz)
 └── README.md
 ```
 
-* `sFuzz`: The basic fuzzing module of T-Fuzz
+* `sFuzz`: The basic fuzzing module of MuFuzz
 * `bran`: The abstract interpreter for path analysis
 * `tools`: The static analysis tools for extracting vulnerability-specific patterns
   * `requirements.txt`：Required python dependencies
@@ -95,7 +95,7 @@ Execute the fuzzer
 ./rename_src.sh
 ```
 
-- Run T-Fuzz
+- Run MuFuzz
 
 ```bash
 ./run.sh
